@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GATHONI-WANJIRA/Tailwind-Setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GATHONI-WANJIRA/Tailwind-Setup/issues"
+  },
+  "homepage": "https://github.com/GATHONI-WANJIRA/Tailwind-Setup#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
