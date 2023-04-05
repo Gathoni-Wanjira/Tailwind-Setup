@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Setup</title>
-    <link rel="stylesheet" href="dist/output.css">
-</head>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
 
-
-<!-- The following code written below is snippets of code practice gathered from 
+  <!-- The following code written below is snippets of code practice gathered from 
 the docs and traversy media tailwind crash course. -->
 
-
-    <!-- Creating a simple button (component).
+  <!-- Creating a simple button (component).
     When you introduce a container the framework is not entitled to automatically 
   center it ... That is only applicable when you specify in the container class as shown -->
-<body class="bg-blue-900" > 
-  <div class="container">
-    <!-- BUTTON COMPONENT -->
-    <button class="bg-blue-200 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded">CLICK BUTTON</button>
+  <body class="bg-blue-900">
+    <div class="container">
+      <!-- BUTTON COMPONENT -->
+      <button
+        class="bg-blue-200 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded"
+      >
+        CLICK BUTTON
+      </button>
 
-
-
-    <!-- ALERT COMPONENT -->
-    <div class="bg-red-200 border border-red-900 text-white px-4 py 3 rounded relative my-5"
-    role="alert"><strong class="font-bold">ALERT!</strong>
-  <span class="block sm:inline ">UPDATE YOUR PASSWORD.</span></div>
-  </div>
-</body>
-
-
-
-
-
-
+      <!-- ALERT COMPONENT -->
+      <div
+        class="bg-red-200 border border-red-900 text-white px-4 py-3 rounded relative my-5"
+        role="alert"
+      >
+        <strong class="font-bold">ALERT!</strong>
+        <span class="block sm:inline">UPDATE YOUR PASSWORD.</span>
+      </div>
+    </div>
+    <!-- CARD COMPONENT -->
+    <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+      <div class="flex-shrink-0">
+        <img src="dist/img/Tlogo.png" alt="" class="h-12 w-12" />
+        <h4 class="text-xl text-gray-500">Traversy Media</h4>
+        <p class="text-base text-gray-900">You Have A New Message!</p>
+      </div>
+    </div>
+  </body>
 </html>
